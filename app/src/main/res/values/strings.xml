@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StartKtTask</string>
+    <string name="full_name_n_boniface_bassey_akpan">Full Name:\n Boniface Bassey Akpan</string>
+    <string name="slack_username_n_boniface">Slack Username:\n Boniface</string>
+    <string name="email_n_officialboniface_gmail_com">Email:\n officialboniface@gmail.com</string>
+    <string name="tracks_n_java_n_kotlin">Tracks:\n *Java\n *Kotlin</string>
+</resources>

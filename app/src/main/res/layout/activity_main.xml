@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D39C8"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/FullNameTv"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/bg_stroke"
+        android:gravity="center_horizontal"
+        android:text="@string/full_name_n_boniface_bassey_akpan"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/SlackUsernameTv"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bg_stroke"
+        android:gravity="center_horizontal"
+        android:text="@string/slack_username_n_boniface"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/FullNameTv" />
+
+    <TextView
+        android:id="@+id/EmailTv"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bg_stroke"
+        android:gravity="center_horizontal"
+        android:text="@string/email_n_officialboniface_gmail_com"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/SlackUsernameTv" />
+
+    <TextView
+        android:id="@+id/TracksTv"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bg_stroke"
+        android:gravity="center_horizontal"
+        android:text="@string/tracks_n_java_n_kotlin"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/EmailTv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
